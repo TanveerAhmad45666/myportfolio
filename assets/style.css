@@ -4691,13 +4691,15 @@ ul.author-info li .fun-fact .medium {
 	content: "";
 	height: 100%;
 	width: 100%;
-	background: url(../img/shape/3.png);
+	background: url(3.png);
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 	z-index: -1;
 }
-
+.fa-comments-alt-dollar::before {
+	content: "\f652";
+}
 .about-item:first-child {
 	margin-top: 50px;
 }
@@ -7649,3 +7651,13 @@ ul.gallery-project-basic-info li:first-child {
 		width: 7em;
 	}
 }
+
+
+
+.logoname{
+	color: #fff !important;
+	font-weight: 500;
+	text-transform: capitalize;
+	background: transparent;
+	font-size: 24px !important;
+  }
