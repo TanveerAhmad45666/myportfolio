@@ -7692,5 +7692,76 @@ ul.education-table li h5 span{
 .temp {
 	width: 49%;
 	display: inline-flex;
-	margin-bottom: 50px;
+	margin-bottom: 50px;                                                        
+}
+.thumb-zoom::after {
+	background: unset !important;
+}
+
+
+
+
+
+@media (min-width:1920px) {/* For 1920 */
+}
+@media (max-width:1919.98px) {/* For 1670 */  
+}
+@media (max-width:1679.98px) {/* For 1560 */  
+}
+@media (max-width:1559.98px) {/* For 1440 */
+}
+@media (max-width: 1439.98px) {/* For 1366 */
+}
+@media (max-width: 1365.98px) {/* For 1280 */
+}
+@media (max-width: 1279.98px) {/* For 1152 */
+}
+@media (max-width: 1151.98px) {/* For 1024 */
+}
+@media (max-width: 1023.98px) {/* For 992 */
+}
+@media (max-width: 991.98px) {/* For 768 */
+}
+@media (max-width: 767.98px) {/* For 576 */
+}
+@media (max-width: 575.98px) {/* For 414 */
+	.service-style-one-item {
+		padding: 35px 15px;
+	}
+	.bg-dark .about-item {
+		padding: 20px;
+	}
+	ul.skill-items li i {
+		font-size: 20px;
+		height: 40px;
+		width: 40px;
+		line-height: 41px;
+		margin-right: 12px;
+	}
+	ul.education-table li h5 span {
+		margin-left: 0px;
+	}
+	ul.education-table li h5 {
+		font-size: 13px;
+	}
+	.default-padding {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.title {
+		font-size: 27px;
+		line-height: 1.2;
+	}
+	h1 {
+		font-size: 30px;
+	}
+	nav.navbar.validnavs .navbar-collapse.collapse button {
+		color: #fff;
+	}
+}
+@media (max-width: 413.98px) {/* For 375 */
+}
+@media (max-width: 374.98px) {/* For 360 */
+}
+@media (max-width: 359.98px) {/* For 320 */
 }
